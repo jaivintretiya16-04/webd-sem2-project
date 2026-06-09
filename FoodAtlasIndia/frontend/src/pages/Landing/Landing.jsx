@@ -16,10 +16,10 @@ const Globe3D = lazy(() => import('../../components/three/Globe3D'))
 const trendingCities = [
   { id: 1, name: 'Jaipur', tagline: 'The Pink City', image: 'https://images.unsplash.com/photo-1599661046289-e31897846e41?w=600&q=80', color: '#e91e63' },
   { id: 2, name: 'Goa', tagline: 'Sun, Sand & Serenity', image: 'https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=600&q=80', color: '#00bcd4' },
-  { id: 3, name: 'Varanasi', tagline: 'City of Light', image: 'https://images.unsplash.com/photo-1561361513-2d000a50f0dc?w=600&q=80', color: '#ff9800' },
+  { id: 3, name: 'Varanasi', tagline: 'City of Light', image: 'https://media.istockphoto.com/id/827065008/photo/holy-town-varanasi-and-the-river-ganges.webp?a=1&b=1&s=612x612&w=0&k=20&c=QtEgeqRAUw0e45r54qW9I79H0hxqk0_3klw_B3xD_rY=', color: '#ff9800' },
   { id: 4, name: 'Manali', tagline: 'Valley of Gods', image: 'https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?w=600&q=80', color: '#4caf50' },
-  { id: 5, name: 'Udaipur', tagline: 'City of Lakes', image: 'https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?w=600&q=80', color: '#9c27b0' },
-  { id: 6, name: 'Kerala', tagline: 'God\'s Own Country', image: 'https://images.unsplash.com/photo-1602158123539-5c7c53b69383?w=600&q=80', color: '#2e7d32' },
+  { id: 5, name: 'Udaipur', tagline: 'City of Lakes', image: 'https://plus.unsplash.com/premium_photo-1697729844084-c03db2377161?q=80&w=869&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', color: '#9c27b0' },
+  { id: 6, name: 'Kerala', tagline: 'God\'s Own Country', image: 'https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8S0VSQUxBfGVufDB8fDB8fHww', color: '#2e7d32' },
 ]
 
 const features = [
